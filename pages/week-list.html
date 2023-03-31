@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+
+	<link rel="stylesheet" href="/styles/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="/styles/week-list.css">
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/pen.css' rel='stylesheet'>
+	<script src="/scripts/week-list.js" defer></script>
+	<script src="https://kit.fontawesome.com/7e4f58e3c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="container">
+			<h1>Zoltiisen's week list</h1>
+			<div class="headline">
+				<div class="title">TITLE</div>
+				<div class="week-gap"></div>
+				<div class="memo">MEMO</div>
+			</div>
+			<hr>
+
+			<!------- Line ------->
+			<form class="line" id="line--0" action="" method="">
+				<input type="text" name="title" class="title" id="title--0" readonly="true">
+				<div class="week-gap"></div>
+				<input type="text" name="memo" class="memo" id="memo--0" readonly>
+				<input type="checkbox" name="edit" class="edit-check" id="edit--0" >
+				<label for="edit--0" class="edit" id="label-edit--0" onclick="editRow(0)"></label>
+				<div class="submit_wrapper">
+					<input type="submit" class ="save" id="save--0">
+					<input type="submit" class="delete" id="delete--0">
+					<label for="save--0" id="save-label--0"><i class="fa-solid fa-pen" style="color: #575757"></i></label>
+					<label for="delete--0" id="delete-label--0"><i class="fa-solid fa-trash" style="color: #575757"></i></label>
+				</div>
+			</form>
+
+			<form class="line" id="line--1" action="" method="">
+				<input type="text" name="title" class="title" id="title--1" readonly="true">
+				<div class="week-gap"></div>
+				<input type="text" name="memo" class="memo" id="memo--1" readonly>
+				<input type="checkbox" name="edit" class="edit-check" id="edit--1" >
+				<label for="edit--1" class="edit" id="label-edit--1" onclick="editRow(1)"></label>
+				<div class="submit_wrapper">
+					<input type="submit" class ="save" id="save--1">
+					<input type="submit" class="delete" id="delete--1">
+					<label for="save--1" id="save-label--1"><i class="fa-solid fa-pen" style="color: #575757"></i></label>
+					<label for="delete--1" id="delete-label--1"><i class="fa-solid fa-trash" style="color: #575757"></i></label>
+				</div>
+			</form>
+
+		</section>
+	</div>
+</body>
+</html>

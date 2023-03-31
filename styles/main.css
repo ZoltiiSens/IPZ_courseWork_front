@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #fcf8e8;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #575757;
+}
+.wrapper {
+	width: 560px;
+	height: 880px;
+	background-color: #94b49f;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	width: 540px;
+	height: 860px;
+	border-radius: 25px;
+	background-color: #ffffff;
+	padding: 25px;
+	overflow: hidden;
+}

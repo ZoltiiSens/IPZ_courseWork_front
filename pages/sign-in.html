@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+
+	<link rel="stylesheet" href="/styles/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="/styles/sign-upin.css">
+	<link href="https://css.gg/menu.css" rel="stylesheet" />
+	<script src="/scripts/app.js" defer></script>
+	<style>
+		.wrapper{
+			height: 350px;
+		}
+		.container{
+			height: 340px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="container">
+			<h1>Sign in</h1>
+			<form action="sign-up" method="get">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username">
+				<label for="password1">Password</label>
+				<input type="password" name="password" id="password">
+				<input type="submit" name="" id="submit">
+			</form>
+			<h5>Don't have an account? <a href="/pages/sign-up.html">Sign up</a></h5>
+		</section>
+	</div>
+</body>
+</html>
